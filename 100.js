@@ -235,4 +235,5 @@
 
 // //28
 // console.warn(true+ +"10") // 11, because true is coerced to 1, and +"10" is coerced to 10, resulting in 1 + 10 = 11
-// console.warn(true + "10"); // "true10", because true is coerced to the string "true", and concatenated with "10"
+// console.warn(true + "10"); // "true10", because true is coerced to the string "true", and concatenated with "10" 
+
