@@ -1,9 +1,141 @@
-con-1{
-    background-color: #f0f0f0;
+/* body{
+    background-color: black;
+} */
+/* h1{
+    color: white;
+    font-family: "Press Start 2P", sans-serif;
+}
+p{
+ background-color: green;
+ color: aliceblue;
+ font-family: "consolas", sans-serif;
+ font-style: italic;
+ font-weight: bold;
+ font-size: 18px;
+ text-decoration: cyan wavy underline;
+} */
+/* #p6{
+    color: tomato;
+}
+.odd{
+    background-color: yellow;
+    color: black;
+}
+.even{
+    background-color: lightblue;
+    color: black;
+} */
+
+/* for borders */
+
+/* h1{
+    color: white;
+    border-top-style: outset;
+    border-bottom-style: dotted;
+    border-left-style: double;
+    border-left-width: 8px;
+    border-left-color: silver;
+}
+p{
+    color: white;
+    border-style: outset;
+    border-color: gold;
+    border-radius: 10px;
+    border-width: 5px;
+    padding: 10px;
+} */
+
+
+/* For background image */
+/* body{
+    background-image:url("download.jpeg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 h1{
-    text-color: #333;
+    background:linear-gradient(to right, skyblue, lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-para{
-    
+p{
+    background:linear-gradient(to right, skyblue, red);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
+
+
+/* margins */
+
+/* body{
+    margin: 0px;
 }
+
+#box1{
+   color: black;
+   border: 5px solid;
+   height: 100px;
+   width: 500px;
+   font-size: 22px;
+   background: greenyellow;
+   padding:15px ;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+}
+#box2{
+   color: black;
+    border: 5px solid;
+   height: 100px;
+   width: 500px;
+   font-size: 22px;
+   background: lightblue;
+   padding: 15px;
+   margin-top: 10px;
+   margin-left: auto;
+    margin-right: auto;
+} */
+
+
+
+/* Float text side by image */
+/* .box1{
+    float: left;
+    clear: left;
+} */
+
+/* -------------------positions------------------- */
+#box1{
+    border: 1px solid black;
+    height: 300px;
+    width: 600px;
+    background-color: skyblue;
+    /* position: relative;
+    top: 5px;  */
+    /* left: 438px; */
+    position: fixed;
+    top: 150px;
+    left: 400px;
+}
+#box2{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    position: absolute;
+    top: 100px;
+    left: 00px; /* Moves the box 100px from the left of the parent */
+}
+
+
+
+
+
+
+
+
